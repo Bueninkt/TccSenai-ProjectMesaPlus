@@ -210,6 +210,14 @@ body {
     opacity: 1;
 }
 
+.field input[type="password"]::-ms-reveal,
+.field input[type="password"]::-ms-clear{
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+
 /* Botão submit */
 .btn--submit {
     display: flex;

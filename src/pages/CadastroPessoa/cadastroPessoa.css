@@ -220,6 +220,14 @@ body {
   padding: 0;
 }
 
+/* Esconde o "olho" nativo do Edge/IE e o botão de limpar */
+.field input[type="password"]::-ms-reveal,
+.field input[type="password"]::-ms-clear{
+  display: none;
+  width: 0;
+  height: 0;
+}
+
 .field__toggle img {
     width: 20px;
     height: 20px;

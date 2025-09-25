@@ -41,7 +41,7 @@ function LoginPage() {
       return;
     }
 
-    const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:3000";
+    const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8080/v1/mesa-plus";
     const url = `${API_BASE}/login`; // endpoint único que aceita os 3 tipos
 
     try {
